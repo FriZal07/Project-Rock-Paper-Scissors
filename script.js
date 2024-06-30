@@ -30,7 +30,7 @@ function playRouund() {
     let human = getHumanChoice();
 
     if (computer == human){
-            console.log("Draw")
+            console.log("You got a Draw")
             return;
         }
     else if (computer == "rock"){
