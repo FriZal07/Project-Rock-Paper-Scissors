@@ -1,0 +1,123 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    flex: 0 1 2000px;
+    gap: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    flex: 0 1 100px;
+}
+
+.titlecontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 1000px;
+
+    font-size: 50px;
+    font-weight: lighter;
+    background-color: rgb(234, 234, 234);
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 400px;
+
+    margin: 10px 50px 20px 50px;
+    background-color: aquamarine;
+    border-radius: 1em;
+}
+
+.resultscontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 1 2000px;
+    gap: 50px;
+
+    background-color: rgb(234, 234, 234);
+    padding: 30px;
+}
+
+.human{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.computer{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.resultTitle{
+    font-size: 50px;
+    text-align: center;
+}
+
+.resultMarks{
+    font-size: 50px;
+    text-align: center;
+}
+
+.userInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 1 100px;
+}
+
+.userInputcontent{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex: 0 1 1000px
+}
+
+#rock,#paper,#scissor {
+    font-size: 35px;
+    padding: 15px 40px;
+    border-radius: 1em;
+    border: none;
+}
+
+.textResults{
+    display: flex;
+    justify-content: center;
+    flex: 0 1 100px;
+}
+
+.textResultscontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 1 1000px
+}
+
+.text{
+
+    margin-top: 10px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 1em;
+
+    padding: 15px 40px;
+    font-size: 40px;
+}
